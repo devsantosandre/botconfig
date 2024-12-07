@@ -179,6 +179,7 @@ export default function ContactsDashboard() {
 
   useEffect(() => {
     applyFilters();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [contacts, searchQuery, dateFilter]);
 
   // Pagination
